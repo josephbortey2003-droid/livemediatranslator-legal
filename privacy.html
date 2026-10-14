@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy – Live Media Translator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<p class="back"><a href="index.html">← Live Media Translator</a></p>
+<h1>Privacy Policy</h1>
+<p class="meta">Effective date: 14 October 2026 · Applies to the Live Media Translator Android app (version 1.0.0 and later)</p>
+
+<p>Live Media Translator is operated by <strong>Joseph Borketey Bortey</strong>, Ghana (“we”, “us”). This policy explains exactly what the app does with your information. We wrote it to match how the app actually works; if the app changes in a way that affects your data, we will update this policy before that version is released.</p>
+
+<h2>Summary</h2>
+<ul>
+<li>Audio is translated either <strong>on your phone (Offline)</strong> or by our speech provider <strong>Soniox (Online)</strong>. We never store your audio on our servers.</li>
+<li>Each installation gets an anonymous <strong>guest account</strong> so we can keep your cloud-minute balance. We do not ask for your name, email or phone number.</li>
+<li>Transcripts, your dictionary and settings stay <strong>on your phone</strong>.</li>
+<li>No advertising, no analytics, no location tracking, and we do not sell data.</li>
+<li>You can delete your account and server data at any time from the app.</li>
+</ul>
+
+<h2>1. Audio</h2>
+<p>When you start translation, the app captures audio from one source you choose:</p>
+<ul>
+<li><strong>Device Audio</strong> – sound played by other apps on your phone. Android requires a screen-capture permission for this; the app uses it <strong>only to capture audio</strong>. It does not record or store images of your screen.</li>
+<li><strong>Microphone</strong> – sound picked up by your phone’s microphone.</li>
+</ul>
+<p><strong>Online mode.</strong> Audio is streamed over an encrypted connection directly from your phone to <a href="https://soniox.com">Soniox</a>, which converts speech to text and translates it. The audio does not pass through our servers. Soniox states that it does not store real-time audio or transcripts and never uses them to train its models; it may keep limited diagnostic metadata temporarily for operations (<a href="https://soniox.com/docs/security-and-privacy">Soniox security &amp; privacy</a>). Soniox may process data outside Ghana.</p>
+<p><strong>Offline mode.</strong> Speech recognition uses your phone’s built-in on-device speech recognizer and translation uses Google ML Kit on-device translation. Audio is processed on the phone and is not sent to us or to Soniox. Internet is needed only once, to download the language models from Google.</p>
+
+<h2>2. Guest account and usage records (our server)</h2>
+<p>To keep your cloud-minute balance safe from tampering, balances are held on our server, not on the phone. When the app first needs it, it creates an anonymous guest account. We store:</p>
+<ul>
+<li>a random account ID and the login tokens for it;</li>
+<li>your cloud-minute balance and a history of changes to it (minutes added, used and refunded);</li>
+<li>for each online translation session: start time, end time, the time charged, and whether it came from Android or Windows.</li>
+</ul>
+<p>We do <strong>not</strong> store audio, transcripts, translations or the names of apps or videos you translate. Our server is hosted by <a href="https://supabase.com/privacy">Supabase</a> in London, United Kingdom. Like any internet service, Supabase and Soniox see your IP address when your phone connects; our server’s request logs are short-lived and used only to keep the service running and secure.</p>
+<p>We keep this data until you delete your account (see section 6). Note that the guest account belongs to this installation: if you uninstall the app without deleting it first, the account and any remaining minutes can no longer be reached.</p>
+
+<h2>3. Data that stays on your phone</h2>
+<ul>
+<li><strong>Settings and your translation dictionary</strong> are stored in the app’s private storage.</li>
+<li><strong>Transcripts</strong> are saved only if you turn on “Record transcript”. They are kept in the app’s private storage, and a readable text copy is saved to <code>Downloads/LiveMediaTranslator</code>. Files in Downloads can be opened by you and by other apps with file access. You can delete transcripts in the app’s History screen and delete the exported files with any file manager.</li>
+</ul>
+
+<h2>4. Permissions the app uses</h2>
+<ul>
+<li><strong>Microphone</strong> – for Microphone mode.</li>
+<li><strong>Screen capture</strong> – required by Android to capture other apps’ audio in Device Audio mode (audio only).</li>
+<li><strong>Display over other apps</strong> – to show subtitles and the floating controls over your video.</li>
+<li><strong>Notifications / foreground service</strong> – Android requires a visible notification while translation runs.</li>
+<li><strong>Internet and network state</strong> – for online translation, model downloads, and to tell you clearly when you are offline.</li>
+</ul>
+
+<h2>5. Who we share data with</h2>
+<p>Only the service providers needed to run the app: <strong>Soniox</strong> (online speech recognition and translation), <strong>Supabase</strong> (hosting our server and database) and <strong>Google</strong> (on-device model downloads and app distribution through Google Play). We do not sell, rent or trade personal information. We may disclose information if required by law.</p>
+<p>The app does not currently contain advertising, analytics or in-app purchases. If we add them, we will update this policy first.</p>
+
+<h2 id="delete-data">6. Your choices and rights</h2>
+<ul>
+<li><strong>Delete your server data:</strong> in the app, open <em>Pro AI → Delete my cloud data</em>. This permanently deletes your guest account, balance, balance history and session records. A new, empty guest account is created if you use online translation again.</li>
+<li><strong>Delete local data:</strong> delete transcripts in History, or uninstall the app (exported files in Downloads are not removed by uninstalling).</li>
+<li>Under Ghana’s Data Protection Act, 2012 (Act 843) and similar laws, you may ask to access, correct or delete your personal data. Email us at the address below; because guest accounts are anonymous, the in-app deletion is the fastest way to remove server data.</li>
+</ul>
+
+<h2>7. Security</h2>
+<p>All connections use encryption (HTTPS / secure WebSockets). The app never contains our permanent Soniox key; it receives a short-lived, single-use key for each session. Database access rules let each account read only its own records, and only our server can change balances.</p>
+
+<h2>8. Children</h2>
+<p>The app is not directed at children under 13, and we do not knowingly collect personal information from them.</p>
+
+<h2>9. Changes</h2>
+<p>We will post any changes on this page and update the effective date. Material changes will be announced in the app.</p>
+
+<h2>10. Contact</h2>
+<p>Joseph Borketey Bortey, Ghana<br>
+Email: <a href="mailto:livemediatranslator.support@gmail.com">livemediatranslator.support@gmail.com</a></p>
+</main>
+</body>
+</html>
